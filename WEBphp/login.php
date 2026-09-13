@@ -40,7 +40,17 @@ $y = (int)date('Y');
     <div class="login-brand-panel">
         <div class="login-brand-inner">
             <div class="tg-logo" aria-hidden="true">
-                <?php require __DIR__ . '/includes/partials/brand_logo_svg.php'; ?>
+                <svg width="90" height="90" viewBox="0 0 90 90" fill="none" role="img" aria-label="Leaf logo">
+                    <circle cx="45" cy="45" r="45" fill="#329b55"/>
+                    <path d="M38.4 64.2C26.8 54.6 26.2 39.8 35.6 29.4c6.2-6.8 17.2-9.6 28.6-4.2 1.8.8 2.2 3.4.6 5.2C56.6 43.4 47.8 54.8 38.4 64.2Z" fill="#fff"/>
+                    <path d="M40.2 61.2C46.4 48.6 53.2 36.4 60.8 26.8" stroke="#329b55" stroke-width="1.7" stroke-linecap="round"/>
+                    <path d="M43.8 54.2C40.2 51.4 37.4 48.2 35.6 44.6" stroke="#329b55" stroke-width="1.15" stroke-linecap="round"/>
+                    <path d="M47.6 46.4C44.2 43.6 41.6 40.4 40.2 36.8" stroke="#329b55" stroke-width="1.15" stroke-linecap="round"/>
+                    <path d="M51.8 38.2C48.8 35.8 46.6 33.2 45.4 30.2" stroke="#329b55" stroke-width="1.05" stroke-linecap="round"/>
+                    <path d="M44.6 52.6C48.2 50.8 51.8 49.6 55.2 49.2" stroke="#329b55" stroke-width="1.15" stroke-linecap="round"/>
+                    <path d="M48.4 44.6C51.8 43 55 42.2 58 42" stroke="#329b55" stroke-width="1.15" stroke-linecap="round"/>
+                    <path d="M52.6 36.4C55.2 35.2 57.6 34.6 59.8 34.4" stroke="#329b55" stroke-width="1.05" stroke-linecap="round"/>
+                </svg>
             </div>
             <h1 class="login-brand-title"><?= h(APP_BRAND) ?></h1>
             <p class="login-brand-tagline">Admin Dashboard</p>
